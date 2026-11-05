@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+/* Light only: the brief is one bright page plus one dark panel, so no theme toggle ships. */
+@theme inline {
+  --font-sans: var(--font-instrument), system-ui, sans-serif;
+  --color-paper: #fafafa;
+  --color-card: #ffffff;
+  --color-ink: #111113;
+  --color-mute: #595960;
+  --color-line: #e4e4e7;
+  --color-wash: #f0f0f2;
+  --color-night: #0c0b0d;
+  --color-night-mute: #c8c3bd;
+}
+
+:root {
+  color-scheme: light;
+  scrollbar-color: #c9c9ce var(--color-paper);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: #ffd9c7;
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.on-night :focus-visible {
+  outline-color: #fff;
+}
+
+/* The one gradient: the hero's accent word, tinted warm to echo the dark panel's glow. */
+.accent-word {
+  background: linear-gradient(100deg, #e0343f 0%, #e8591f 55%, #d4780a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* The one authored moment: hero lines rise in once, in sequence. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+.rise {
+  animation: rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(var(--i, 0) * 90ms);
+}
+
+/* On scroll the header name folds away and only the AP mark stays. Browsers without scroll-driven animation keep the name. */
+@keyframes fold-name {
+  to {
+    max-width: 0;
+    margin-left: 0;
+    opacity: 0;
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  .brand-name {
+    max-width: 12rem;
+    animation: fold-name linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0px 120px;
+  }
+}
+
+/* Scroll-driven moments, same enhancement rule as the fold: where unsupported, the finished state shows. */
+@keyframes wipe {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+@keyframes draw-rule {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+/* Row rules drawn like ledger lines: each row's top rule is a pseudo-element so it can scale in. */
+.draw-rules > * {
+  position: relative;
+}
+.draw-rules > *::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: var(--color-line);
+  transform-origin: left;
+}
+
+@supports (animation-timeline: view()) {
+  /* SVG shapes and pseudo-elements have no scroll box of their own, so they follow their owner's named timeline. */
+  .draw {
+    view-timeline: --draw;
+    animation: wipe linear both;
+    animation-timeline: --draw;
+    animation-range: entry 10% cover 30%;
+  }
+  .draw-dot {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: pop linear both;
+    animation-timeline: --draw;
+    animation-range: cover 28% cover 36%;
+  }
+  .draw-rules > * {
+    view-timeline: --row;
+  }
+  .draw-rules > *::before {
+    animation: draw-rule linear both;
+    animation-timeline: --row;
+    animation-range: entry 0% cover 25%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .draw,
+  .draw-dot,
+  .draw-rules > *::before {
+    animation: none;
+  }
+  .brand-name {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+  .rise {
+    animation: none;
+  }
+}

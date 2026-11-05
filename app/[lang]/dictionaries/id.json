@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "title": "Adittya Pratama | Full-stack developer dan system analyst",
+    "description": "Full-stack developer dan system analyst di Universitas Perjuangan Tasikmalaya, membangun sistem end-to-end: buku besar, sistem informasi akademik, dan infrastruktur produksi."
+  },
+  "nav": {
+    "products": "Produk",
+    "profile": "Profil",
+    "email": "Kirim email",
+    "switchTo": "EN",
+    "switchLabel": "English"
+  },
+  "hero": {
+    "pill": "Terbuka untuk kerja remote global",
+    "lines": [
+      "Institusi berjalan di atas",
+      "Sistem menjaganya tetap benar.",
+      "Saya membangun sistemnya."
+    ],
+    "accent": "catatan.",
+    "sub": "Adittya Pratama, full-stack developer dan system analyst."
+  },
+  "stack": [
+    "NestJS",
+    "TypeScript",
+    "MySQL",
+    "Redis",
+    "RabbitMQ",
+    "Next.js",
+    "Docker",
+    "Linux"
+  ],
+  "about": {
+    "title": "Catatan rusak diam-diam. Saya membangunnya supaya ketahuan saat rusak.",
+    "text": "Saya Adittya Pratama, full-stack developer dan system analyst di UPT TIK Universitas Perjuangan Tasikmalaya. Saya merancang dan menjalankan sistem yang dipakai mahasiswa, dosen, dan staf setiap hari.",
+    "link": "Baca profil saya"
+  },
+  "contact": {
+    "title": "Punya sistem yang harus benar?",
+    "text": "Cara tercepat menghubungi saya lewat email. Saya terbuka untuk peran remote global dan proyek freelance terpilih.",
+    "email": "Kirim email",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "line": "Adittya Pratama, full-stack developer dan system analyst",
+    "github": "GitHub"
+  },
+  "hard": {
+    "title": "Dibangun di atas masalah sulit.",
+    "text": "Tiga bidang, tiga pertanyaan yang terus saya jawab.",
+    "domains": [
+      {
+        "name": "Sistem akademik",
+        "question": "Bagaimana ribuan mahasiswa mendaftar bersamaan tanpa konflik data?",
+        "project": "SIMANTAP + PMB"
+      },
+      {
+        "name": "Pencatatan keuangan",
+        "question": "Bagaimana pembukuan ditutup dari satu sumber data yang dipercaya?",
+        "project": "Mesin akuntansi pabrik"
+      },
+      {
+        "name": "Instrumen riset",
+        "question": "Bagaimana menangkap event game secara langsung dan menjawab dari dokumen yang tepat?",
+        "project": "Dolanan dan RAG terapan"
+      }
+    ],
+    "cta": "Lihat semua produk"
+  },
+  "products": {
+    "meta": {
+      "title": "Produk | Adittya Pratama",
+      "description": "Empat sistem untuk institusi nyata: sistem informasi akademik dan platform penerimaan, game riset, mesin akuntansi pabrik, dan tesis RAG terapan."
+    },
+    "title": "Yang sudah saya bangun.",
+    "text": "Universitas, game riset, buku besar pabrik, dan riset tesis.",
+    "note": "Studi kasus sedang ditulis.",
+    "items": [
+      {
+        "name": "SIMANTAP + PMB",
+        "headline": "Satu platform untuk penerimaan dan akademik.",
+        "text": "Sistem informasi akademik dan platform penerimaan mahasiswa baru Universitas Perjuangan Tasikmalaya, dipakai 5.000+ pengguna aktif: mahasiswa, dosen, dan staf.",
+        "meta": "System analyst dan full-stack developer",
+        "stack": [
+          "Laravel",
+          "NestJS",
+          "MySQL",
+          "Cloudflare",
+          "Linux"
+        ],
+        "parts": [
+          {
+            "name": "SIMANTAP",
+            "role": "Sistem informasi akademik (Laravel)"
+          },
+          {
+            "name": "PMB",
+            "role": "Platform penerimaan (NestJS)"
+          },
+          {
+            "name": "MySQL",
+            "role": "Skema transaksional"
+          },
+          {
+            "name": "Cloudflare",
+            "role": "Aturan edge"
+          }
+        ]
+      },
+      {
+        "name": "Dolanan",
+        "headline": "Game riset dengan event sebagai inti.",
+        "text": "Monorepo berbasis event yang menjadi instrumen riset doktoral, distrukturkan dengan DDD dan dicatat dalam Architecture Decision Record.",
+        "meta": "Lead architect dan core engineer",
+        "stack": [
+          "NestJS",
+          "Next.js",
+          "Phaser 3",
+          "RabbitMQ",
+          "Redis",
+          "Turborepo"
+        ],
+        "parts": [
+          {
+            "name": "Phaser 3",
+            "role": "Kanvas game"
+          },
+          {
+            "name": "Next.js",
+            "role": "Portal web"
+          },
+          {
+            "name": "NestJS",
+            "role": "API"
+          },
+          {
+            "name": "RabbitMQ",
+            "role": "Telemetri event game"
+          },
+          {
+            "name": "Redis",
+            "role": "Status sesi"
+          }
+        ]
+      },
+      {
+        "name": "Mesin akuntansi pabrik",
+        "headline": "Dari jurnal sampai laporan keuangan.",
+        "text": "Mesin akuntansi double-entry pertama PT Padud Jaya Putera, perusahaan manufaktur. Mesin ini otomatis memposting buku besar dan menghasilkan neraca saldo serta laporan keuangan.",
+        "meta": "Software engineer dan system analyst",
+        "stack": [
+          "Node.js",
+          "NestJS",
+          "MySQL"
+        ],
+        "parts": [
+          {
+            "name": "Buku besar",
+            "role": "Posting otomatis"
+          },
+          {
+            "name": "Neraca saldo",
+            "role": "Dihasilkan dari buku besar"
+          },
+          {
+            "name": "Laporan keuangan",
+            "role": "Dihasilkan dari buku besar"
+          },
+          {
+            "name": "Model multi-perusahaan",
+            "role": "Tata kelola terpusat"
+          }
+        ]
+      },
+      {
+        "name": "RAG terapan untuk layanan akademik",
+        "headline": "Jawaban yang berpijak pada dokumen yang tepat.",
+        "text": "Pipeline retrieval adaptif untuk pertanyaan berbahasa campuran Indonesia-Sunda, dievaluasi dengan metrik retrieval formal untuk menekan halusinasi.",
+        "meta": "Peneliti pascasarjana, tesis magister sedang dikerjakan",
+        "stack": [
+          "Python",
+          "RAG",
+          "Vector search"
+        ],
+        "parts": [
+          {
+            "name": "Normalisasi query",
+            "role": "Memahami maksud pertanyaan, teks bahasa campuran"
+          },
+          {
+            "name": "Reranking",
+            "role": "Dokumen berbasis peran"
+          },
+          {
+            "name": "Evaluasi",
+            "role": "Precision@K, MRR, relevansi konteks"
+          }
+        ]
+      }
+    ]
+  },
+  "profile": {
+    "meta": {
+      "title": "Profil | Adittya Pratama",
+      "description": "Full-stack developer dan system analyst di UPT TIK Universitas Perjuangan Tasikmalaya, dan enam langkah kerja di balik setiap perubahan."
+    },
+    "title": "Saya menganalisis masalahnya, lalu membangun sistemnya.",
+    "text": "Saya merancang dan menjalankan sistem yang dipakai mahasiswa, dosen, dan staf setiap hari, dan sedang menulis tesis magister tentang retrieval terapan.",
+    "workflow": {
+      "title": "Cara saya bekerja.",
+      "text": "Enam langkah. Makin berisiko perubahannya, makin banyak langkah yang dilalui.",
+      "steps": [
+        {
+          "title": "Ukur risikonya dulu.",
+          "text": "Perubahan satu file jalan cepat. Perubahan skema, uang, hak akses, atau produksi lewat jalur penuh."
+        },
+        {
+          "title": "Baca sebelum menyentuh.",
+          "text": "Entry point, alur data, aturan bisnis, dan database dipetakan sebelum kode lama diubah."
+        },
+        {
+          "title": "Rencana dulu, kerjakan satu tiket per kali.",
+          "text": "Kebutuhan jadi rencana tertulis. Tiap tiket punya branch sendiri dan dikerjakan dengan menulis test dulu."
+        },
+        {
+          "title": "Diagnosis sebelum perbaikan.",
+          "text": "Bug direproduksi dan penyebabnya dibuktikan sebelum satu baris pun diubah."
+        },
+        {
+          "title": "Review oleh orang lain.",
+          "text": "Perubahan sedang dan berat direview secara independen sebelum merge."
+        },
+        {
+          "title": "Rilis dengan rencana rollback.",
+          "text": "Rencana rilis dibuat dulu. Dokumentasi ditulis dari apa yang benar-benar dirilis."
+        }
+      ]
+    },
+    "habits": {
+      "title": "Kebiasaan di dalam sistem.",
+      "items": [
+        {
+          "title": "Transaksi dulu.",
+          "text": "Skema dan batas transaksi dirancang untuk mencegah konflik konkurensi saat puncak KRS."
+        },
+        {
+          "title": "Satu sumber untuk pembukuan.",
+          "text": "Posting buku besar, neraca saldo, dan laporan keuangan berasal dari mesin double-entry yang sama."
+        },
+        {
+          "title": "Event, bukan tebakan.",
+          "text": "RabbitMQ dan Redis membawa telemetri game dan status sesi dalam desain berbasis event."
+        },
+        {
+          "title": "Dioperasikan, bukan sekadar dirilis.",
+          "text": "Server Linux dengan keamanan diperketat, aturan edge Cloudflare, dan backup database otomatis."
+        }
+      ]
+    },
+    "story": {
+      "lead": "Kebanyakan software institusi gagal pelan-pelan, di tempat yang tidak dicek siapa pun.",
+      "paragraphs": [
+        "Saldo yang salah, pendaftaran ganda, atau event yang hilang jarang membuat sistem mati. Datanya diam di catatan sampai ada yang membutuhkannya.",
+        "Saya mengerjakan bagian yang menjaga catatan itu tetap benar: skema, batas transaksi, dan pengecekan di sekitarnya. Saya menganalisis dulu bagaimana pekerjaan itu benar-benar berjalan, lalu membangun sistem yang sesuai.",
+        "Saya suka sistem yang terus dipakai, jadi saya merancang untuk hari setelah peluncuran."
+      ]
+    },
+    "card": {
+      "role": "Full-stack developer dan system analyst",
+      "place": "UPT TIK, Universitas Perjuangan Tasikmalaya"
+    },
+    "roles": {
+      "title": "Lima peran dalam satu pekerjaan.",
+      "text": "Peran yang pernah saya pegang di sistem yang sama.",
+      "items": [
+        {
+          "name": "System analyst",
+          "text": "Memetakan cara kerja yang sebenarnya, lalu mengubahnya jadi kebutuhan, alur data, dan rencana.",
+          "tags": [
+            "Kebutuhan",
+            "Alur data",
+            "Risiko"
+          ]
+        },
+        {
+          "name": "Backend engineer",
+          "text": "Membangun API dan skema yang menyimpan catatan.",
+          "tags": [
+            "NestJS",
+            "Laravel",
+            "MySQL"
+          ]
+        },
+        {
+          "name": "Frontend engineer",
+          "text": "Membangun antarmuka yang dipakai orang setiap hari.",
+          "tags": [
+            "Next.js",
+            "React",
+            "Vite"
+          ]
+        },
+        {
+          "name": "Operator infrastruktur",
+          "text": "Menjalankan server, aturan edge, dan backup di belakangnya.",
+          "tags": [
+            "Linux",
+            "Cloudflare",
+            "Docker"
+          ]
+        },
+        {
+          "name": "Peneliti",
+          "text": "Mengevaluasi retrieval dengan metrik formal untuk tesis magister.",
+          "tags": [
+            "RAG",
+            "Precision@K",
+            "MRR"
+          ]
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Tempat saya bekerja dan belajar.",
+      "items": [
+        {
+          "when": "Apr 2023 – sekarang",
+          "what": "Full-stack developer dan system analyst",
+          "where": "UPT TIK, Universitas Perjuangan Tasikmalaya"
+        },
+        {
+          "when": "Agu 2019 – Apr 2023",
+          "what": "Software engineer dan system analyst",
+          "where": "PT Padud Jaya Putera"
+        },
+        {
+          "when": "2026 – sekarang",
+          "what": "M.Kom, Magister Informatika, konsentrasi Big Data dan Predictive Analytics",
+          "where": "Universitas AMIKOM Yogyakarta"
+        },
+        {
+          "when": "2015 – 2019",
+          "what": "S.Kom, Teknik Informatika",
+          "where": "Universitas Perjuangan Tasikmalaya"
+        }
+      ]
+    }
+  },
+  "proof": [
+    {
+      "value": "5.000+",
+      "label": "mahasiswa, dosen, dan staf aktif di SIMANTAP + PMB"
+    },
+    {
+      "value": "7+",
+      "label": "tahun membangun sistem produksi"
+    },
+    {
+      "value": "4",
+      "label": "sistem, dari penerimaan sampai buku besar pabrik"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "title": "Adittya Pratama | Full-stack developer and system analyst",
+    "description": "Full-stack developer and system analyst at Universitas Perjuangan Tasikmalaya, building end-to-end systems: ledgers, student information systems, and production infrastructure."
+  },
+  "nav": {
+    "products": "Products",
+    "profile": "Profile",
+    "email": "Email me",
+    "switchTo": "ID",
+    "switchLabel": "Bahasa Indonesia"
+  },
+  "hero": {
+    "pill": "Open to global remote",
+    "lines": [
+      "Institutions run on",
+      "Systems keep them true.",
+      "I build those systems."
+    ],
+    "accent": "records.",
+    "sub": "Adittya Pratama, full-stack developer and system analyst."
+  },
+  "stack": [
+    "NestJS",
+    "TypeScript",
+    "MySQL",
+    "Redis",
+    "RabbitMQ",
+    "Next.js",
+    "Docker",
+    "Linux"
+  ],
+  "about": {
+    "title": "Records fail quietly. I build them to fail loudly.",
+    "text": "I'm Adittya Pratama, a full-stack developer and system analyst at UPT TIK, Universitas Perjuangan Tasikmalaya. I design and run the systems that students, faculty, and staff depend on every day.",
+    "link": "Read my profile"
+  },
+  "contact": {
+    "title": "Have a system that has to be right?",
+    "text": "Email is the fastest way to reach me. I'm open to global remote roles and selected freelance work.",
+    "email": "Email me",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "line": "Adittya Pratama, full-stack developer and system analyst",
+    "github": "GitHub"
+  },
+  "hard": {
+    "title": "Built on hard problems.",
+    "text": "Three areas, three questions I keep answering.",
+    "domains": [
+      {
+        "name": "Academic systems",
+        "question": "How do thousands of students enroll at once without data conflicts?",
+        "project": "SIMANTAP + PMB"
+      },
+      {
+        "name": "Financial records",
+        "question": "How do the books close from a single source of truth?",
+        "project": "Factory accounting engine"
+      },
+      {
+        "name": "Research instruments",
+        "question": "How do you capture game events live and answer from the right document?",
+        "project": "Dolanan and applied RAG"
+      }
+    ],
+    "cta": "See all products"
+  },
+  "products": {
+    "meta": {
+      "title": "Products | Adittya Pratama",
+      "description": "Four systems built for real institutions: a student information system and admissions platform, a research game, a factory accounting engine, and an applied RAG thesis."
+    },
+    "title": "What I've built.",
+    "text": "A university, a research game, a factory ledger, and thesis research.",
+    "note": "Case studies are being written.",
+    "items": [
+      {
+        "name": "SIMANTAP + PMB",
+        "headline": "One platform for admissions and academics.",
+        "text": "The student information system and admissions platform of Universitas Perjuangan Tasikmalaya, used by 5,000+ active students, faculty, and staff.",
+        "meta": "System analyst and full-stack developer",
+        "stack": [
+          "Laravel",
+          "NestJS",
+          "MySQL",
+          "Cloudflare",
+          "Linux"
+        ],
+        "parts": [
+          {
+            "name": "SIMANTAP",
+            "role": "Student information system (Laravel)"
+          },
+          {
+            "name": "PMB",
+            "role": "Admissions platform (NestJS)"
+          },
+          {
+            "name": "MySQL",
+            "role": "Transactional schemas"
+          },
+          {
+            "name": "Cloudflare",
+            "role": "Edge rules"
+          }
+        ]
+      },
+      {
+        "name": "Dolanan",
+        "headline": "A research game with events at its core.",
+        "text": "An event-driven monorepo that serves as a doctoral research instrument, structured with DDD and recorded in Architecture Decision Records.",
+        "meta": "Lead architect and core engineer",
+        "stack": [
+          "NestJS",
+          "Next.js",
+          "Phaser 3",
+          "RabbitMQ",
+          "Redis",
+          "Turborepo"
+        ],
+        "parts": [
+          {
+            "name": "Phaser 3",
+            "role": "Game canvas"
+          },
+          {
+            "name": "Next.js",
+            "role": "Web portals"
+          },
+          {
+            "name": "NestJS",
+            "role": "API"
+          },
+          {
+            "name": "RabbitMQ",
+            "role": "Game event telemetry"
+          },
+          {
+            "name": "Redis",
+            "role": "Session state"
+          }
+        ]
+      },
+      {
+        "name": "Factory accounting engine",
+        "headline": "From journal entry to financial statement.",
+        "text": "The first enterprise double-entry accounting engine of PT Padud Jaya Putera, a manufacturer, automating ledger postings, trial balances, and financial statements.",
+        "meta": "Software engineer and systems analyst",
+        "stack": [
+          "Node.js",
+          "NestJS",
+          "MySQL"
+        ],
+        "parts": [
+          {
+            "name": "General ledger",
+            "role": "Automated postings"
+          },
+          {
+            "name": "Trial balance",
+            "role": "Generated from the ledger"
+          },
+          {
+            "name": "Financial statements",
+            "role": "Generated from the ledger"
+          },
+          {
+            "name": "Multi-company models",
+            "role": "Central governance"
+          }
+        ]
+      },
+      {
+        "name": "Applied RAG for academic services",
+        "headline": "Answers grounded in the right document.",
+        "text": "An adaptive retrieval pipeline for code-mixed Indonesian-Sundanese questions, evaluated with formal retrieval metrics to reduce hallucinations.",
+        "meta": "Graduate researcher, master's thesis in progress",
+        "stack": [
+          "Python",
+          "RAG",
+          "Vector search"
+        ],
+        "parts": [
+          {
+            "name": "Query normalization",
+            "role": "Intent-aware, code-mixed text"
+          },
+          {
+            "name": "Reranking",
+            "role": "Role-based documents"
+          },
+          {
+            "name": "Evaluation",
+            "role": "Precision@K, MRR, context relevance"
+          }
+        ]
+      }
+    ]
+  },
+  "profile": {
+    "meta": {
+      "title": "Profile | Adittya Pratama",
+      "description": "Full-stack developer and system analyst at UPT TIK, Universitas Perjuangan Tasikmalaya, and the six-step process behind every change."
+    },
+    "title": "I analyze the problem, then build the system.",
+    "text": "I design and run the systems students, faculty, and staff depend on every day, and I'm writing a master's thesis on applied retrieval.",
+    "workflow": {
+      "title": "How I work.",
+      "text": "Six steps. The riskier the change, the more of them it gets.",
+      "steps": [
+        {
+          "title": "Rate the risk.",
+          "text": "A one-file tweak moves fast. Schema, money, access, or production changes get the full route."
+        },
+        {
+          "title": "Read before touching.",
+          "text": "Entry points, data flow, business rules, and the database are mapped before old code changes."
+        },
+        {
+          "title": "Plan, then one ticket at a time.",
+          "text": "Requirements become a written plan. Each ticket gets its own branch and is built test-first."
+        },
+        {
+          "title": "Diagnose before fixing.",
+          "text": "A bug is reproduced and its cause evidenced before a single line changes."
+        },
+        {
+          "title": "Review with fresh eyes.",
+          "text": "Medium and heavy changes get an independent second review before they merge."
+        },
+        {
+          "title": "Ship with a way back.",
+          "text": "The release plan comes first. The write-up comes from what actually shipped."
+        }
+      ]
+    },
+    "habits": {
+      "title": "Habits in the systems.",
+      "items": [
+        {
+          "title": "Transactions first.",
+          "text": "Schemas and transaction boundaries designed to prevent concurrency conflicts at enrollment peaks."
+        },
+        {
+          "title": "One source for the books.",
+          "text": "Ledger postings, trial balances, and financial statements all come from the same double-entry engine."
+        },
+        {
+          "title": "Events, not guesses.",
+          "text": "RabbitMQ and Redis carry game telemetry and session state in an event-driven design."
+        },
+        {
+          "title": "Operated, not just shipped.",
+          "text": "Hardened Linux servers, Cloudflare edge rules, and automated database backups."
+        }
+      ]
+    },
+    "story": {
+      "lead": "Most institutional software fails slowly, in the places nobody checks.",
+      "paragraphs": [
+        "A wrong balance, a duplicated enrollment, or a lost event rarely crashes anything. It sits in the records until someone needs them.",
+        "I work on the part that keeps those records true: schemas, transaction boundaries, and the checks around them. I analyze how the work really happens first, then build the system to match.",
+        "I like systems that stay in use, so I design for the day after launch."
+      ]
+    },
+    "card": {
+      "role": "Full-stack developer and system analyst",
+      "place": "UPT TIK, Universitas Perjuangan Tasikmalaya"
+    },
+    "roles": {
+      "title": "Five roles in one job.",
+      "text": "Roles I've held across the same systems.",
+      "items": [
+        {
+          "name": "System analyst",
+          "text": "Maps how the work really happens, then turns it into requirements, data flow, and a plan.",
+          "tags": [
+            "Requirements",
+            "Data flow",
+            "Risk"
+          ]
+        },
+        {
+          "name": "Backend engineer",
+          "text": "Builds the APIs and schemas that hold the records.",
+          "tags": [
+            "NestJS",
+            "Laravel",
+            "MySQL"
+          ]
+        },
+        {
+          "name": "Frontend engineer",
+          "text": "Builds the interfaces people use every day.",
+          "tags": [
+            "Next.js",
+            "React",
+            "Vite"
+          ]
+        },
+        {
+          "name": "Infrastructure operator",
+          "text": "Runs the servers, edge rules, and backups behind it.",
+          "tags": [
+            "Linux",
+            "Cloudflare",
+            "Docker"
+          ]
+        },
+        {
+          "name": "Researcher",
+          "text": "Evaluates retrieval with formal metrics for a master's thesis.",
+          "tags": [
+            "RAG",
+            "Precision@K",
+            "MRR"
+          ]
+        }
+      ]
+    },
+    "timeline": {
+      "title": "Where I've worked and studied.",
+      "items": [
+        {
+          "when": "Apr 2023 – now",
+          "what": "Full-stack developer and system analyst",
+          "where": "UPT TIK, Universitas Perjuangan Tasikmalaya"
+        },
+        {
+          "when": "Aug 2019 – Apr 2023",
+          "what": "Software engineer and system analyst",
+          "where": "PT Padud Jaya Putera"
+        },
+        {
+          "when": "2026 – now",
+          "what": "M.Kom, Master of Informatics, Big Data and Predictive Analytics",
+          "where": "Universitas AMIKOM Yogyakarta"
+        },
+        {
+          "when": "2015 – 2019",
+          "what": "S.Kom, Informatics Engineering",
+          "where": "Universitas Perjuangan Tasikmalaya"
+        }
+      ]
+    }
+  },
+  "proof": [
+    {
+      "value": "5,000+",
+      "label": "active students, faculty, and staff on SIMANTAP + PMB"
+    },
+    {
+      "value": "7+",
+      "label": "years building production systems"
+    },
+    {
+      "value": "4",
+      "label": "systems, from admissions to a factory ledger"
+    }
+  ]
+}
