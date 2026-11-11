@@ -112,6 +112,7 @@
         "headline": "A research game with events at its core.",
         "text": "An event-driven monorepo that serves as a doctoral research instrument, structured with DDD and recorded in Architecture Decision Records.",
         "meta": "Lead architect and core engineer",
+        "link": { "label": "Visit ayodolanan.com", "url": "https://ayodolanan.com" },
         "stack": [
           "NestJS",
           "Next.js",

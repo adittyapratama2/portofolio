@@ -112,6 +112,7 @@
         "headline": "Game riset dengan event sebagai inti.",
         "text": "Monorepo berbasis event yang menjadi instrumen riset doktoral, distrukturkan dengan DDD dan dicatat dalam Architecture Decision Record.",
         "meta": "Lead architect dan core engineer",
+        "link": { "label": "Buka ayodolanan.com", "url": "https://ayodolanan.com" },
         "stack": [
           "NestJS",
           "Next.js",

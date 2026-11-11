@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale } from "../dictionaries";
-import { Contact, Footer, Header, pageMetadata } from "../site";
+import { Contact, Footer, Header, pageMetadata, textLink } from "../site";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/products">): Promise<Metadata> {
   const { lang } = await params;
@@ -38,6 +38,11 @@ export default async function Products({ params }: PageProps<"/[lang]/products">
                       </li>
                     ))}
                   </ul>
+                  {item.link && (
+                    <a href={item.link.url} className={`${textLink} mt-6 inline-flex min-h-11 items-center`} rel="noopener noreferrer">
+                      {item.link.label}
+                    </a>
+                  )}
                 </div>
                 {/* Spec sheet drawn from the project's real parts: internal systems have no public screenshots, so none are invented. */}
                 <div className={`rounded-[2rem] border border-line bg-card p-6 sm:p-8 ${i % 2 ? "" : "lg:order-first"}`}>
