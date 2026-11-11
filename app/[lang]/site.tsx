@@ -19,6 +19,13 @@ export function pageMetadata(lang: Locale, path: string, meta: { title: string; 
   return {
     title: meta.title,
     description: meta.description,
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: href(lang, path),
+      locale: lang === "en" ? "en_US" : "id_ID",
+    },
+    twitter: { title: meta.title, description: meta.description },
     alternates: {
       canonical: href(lang, path),
       languages: { en: href("en", path), id: href("id", path), "x-default": href("en", path) },

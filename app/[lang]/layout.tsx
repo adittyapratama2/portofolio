@@ -6,8 +6,8 @@ import "../globals.css";
 
 const instrument = Instrument_Sans({ variable: "--font-instrument", subsets: ["latin"] });
 
-// Domain is not bought yet; set SITE_URL in production so canonical and hreflang URLs are absolute.
-const siteUrl = new URL(process.env.SITE_URL ?? "http://localhost:3000");
+// Domain is not bought yet, so the Vercel URL is the default. Set SITE_URL when a custom domain goes live.
+const siteUrl = new URL(process.env.SITE_URL ?? "https://adittya-pratama.vercel.app");
 
 // Every locale is known at build time, so both languages ship as static HTML for crawlers.
 export function generateStaticParams() {
@@ -22,6 +22,15 @@ export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Prom
     metadataBase: siteUrl,
     title: meta.title,
     description: meta.description,
+    openGraph: {
+      type: "website",
+      siteName: "Adittya Pratama",
+      title: meta.title,
+      description: meta.description,
+      url: lang === "en" ? "/" : "/id",
+      locale: lang === "en" ? "en_US" : "id_ID",
+    },
+    twitter: { card: "summary_large_image", title: meta.title, description: meta.description },
     alternates: {
       canonical: lang === "en" ? "/" : "/id",
       languages: { en: "/", id: "/id", "x-default": "/" },

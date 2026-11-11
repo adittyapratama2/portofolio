@@ -8,6 +8,9 @@ export function proxy(request: NextRequest) {
 
   if (pathname === "/id" || pathname.startsWith("/id/")) return;
 
+  // The OG image URL emitted in metadata is "/en/opengraph-image"; crawlers should get it without a redirect.
+  if (pathname.startsWith("/en/") && pathname.endsWith("/opengraph-image")) return;
+
   // "/en/..." would duplicate "/..." for search engines, so send it to the canonical URL.
   if (pathname === "/en" || pathname.startsWith("/en/")) {
     const url = request.nextUrl.clone();
