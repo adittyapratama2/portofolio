@@ -175,21 +175,16 @@
       {
         "name": "Applied RAG for academic services",
         "headline": "Answers grounded in the right document.",
-        "text": "An adaptive retrieval pipeline for code-mixed Indonesian-Sundanese questions, evaluated with formal retrieval metrics to reduce hallucinations.",
+        "text": "An adaptive retrieval pipeline for code-mixed Indonesian-Sundanese questions, designed to be evaluated with formal retrieval metrics. Thesis in progress.",
         "meta": "Graduate researcher, master's thesis in progress",
         "stack": [
           "Python",
-          "RAG",
-          "Vector search"
+          "RAG"
         ],
         "parts": [
           {
             "name": "Query normalization",
             "role": "Intent-aware, code-mixed text"
-          },
-          {
-            "name": "Reranking",
-            "role": "Role-based documents"
           },
           {
             "name": "Evaluation",
@@ -311,7 +306,7 @@
         },
         {
           "name": "Researcher",
-          "text": "Evaluates retrieval with formal metrics for a master's thesis.",
+          "text": "Designing retrieval evaluation with formal metrics for a master's thesis.",
           "tags": [
             "RAG",
             "Precision@K",

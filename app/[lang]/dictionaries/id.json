@@ -175,21 +175,16 @@
       {
         "name": "RAG terapan untuk layanan akademik",
         "headline": "Jawaban yang berpijak pada dokumen yang tepat.",
-        "text": "Pipeline retrieval adaptif untuk pertanyaan berbahasa campuran Indonesia-Sunda, dievaluasi dengan metrik retrieval formal untuk menekan halusinasi.",
+        "text": "Pipeline retrieval adaptif untuk pertanyaan berbahasa campuran Indonesia-Sunda, dirancang untuk dievaluasi dengan metrik retrieval formal. Tesis sedang dikerjakan.",
         "meta": "Peneliti pascasarjana, tesis magister sedang dikerjakan",
         "stack": [
           "Python",
-          "RAG",
-          "Vector search"
+          "RAG"
         ],
         "parts": [
           {
             "name": "Normalisasi query",
             "role": "Memahami maksud pertanyaan, teks bahasa campuran"
-          },
-          {
-            "name": "Reranking",
-            "role": "Dokumen berbasis peran"
           },
           {
             "name": "Evaluasi",
@@ -311,7 +306,7 @@
         },
         {
           "name": "Peneliti",
-          "text": "Mengevaluasi retrieval dengan metrik formal untuk tesis magister.",
+          "text": "Merancang evaluasi retrieval dengan metrik formal untuk tesis magister.",
           "tags": [
             "RAG",
             "Precision@K",

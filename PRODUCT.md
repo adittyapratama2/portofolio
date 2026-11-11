@@ -49,7 +49,7 @@ End-to-end systems for real institutions. One person has carried a system from s
 ## Evidence on Hand
 
 - Resume with dates, roles, and results: `~/workspace/personal/resume/Adittya_Pratama_Resume.md` (also `.html`, `.pdf`).
-- Concrete claims available: 5,000+ active users on SIMANTAP and PMB; first enterprise double-entry accounting engine at the factory; Dolanan monorepo with ADRs; RAG pipeline evaluated with Precision@K, MRR, and context relevance.
+- Concrete claims available: 5,000+ active users on SIMANTAP and PMB; first enterprise double-entry accounting engine at the factory; Dolanan monorepo with ADRs; RAG thesis in progress (evaluation with Precision@K, MRR, and context relevance is planned, not done; never say "evaluated" or "reduces hallucinations").
 - Absent and must not be invented: testimonials, client names, traffic numbers, revenue, awards, screenshots of internal systems, a profile photo (status unknown).
 
 ## Product Principles
